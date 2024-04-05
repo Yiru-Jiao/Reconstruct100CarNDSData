@@ -1,11 +1,11 @@
-# Trajectory reconstruction of (near-)crashes from 100-Car NDS radar data
+# Trajectory reconstruction of crashes and near-crashes from 100-Car NDS time-series data
 This repository reconstructs bird's eye view trajectories of vehicles involved in crashes and near-crashes from 100-Car Naturalistic Driving Study (NDS) radar data.
 
-## 100Car NDS
->The 100-Car Naturalistic Driving Study (NDS) was an instrumented-vehicle study conducted in the Northern Virginia / Washington, D.C. area over a 2 year period in early 2000s [^1]. The primary purpose of the study was to collect large scale naturalistic driving data. To this end, the instrumentation was designed to be unobtrusive, study participants were given no special instructions, and experimenters were not present. Approximately 100 vehicles were instrumented with a suite of sensors including forward and rearward radar, lateral and longitudinal accelerometers, gyro, GPS, access to the vehicle CAN, and five channels of compressed digital video. 
+## 100Car Naturalistic Driving Study (NDS)
+>The 100-Car NDS was an instrumented-vehicle study conducted in the Northern Virginia / Washington, D.C. area over a 2 year period in early 2000s [^1]. The primary purpose of the study was to collect large scale naturalistic driving data. To this end, the instrumentation was designed to be unobtrusive, study participants were given no special instructions, and experimenters were not present. Approximately 100 vehicles were instrumented with a suite of sensors including forward and rearward radar, lateral and longitudinal accelerometers, gyro, GPS, access to the vehicle CAN, and five channels of compressed digital video. 
 [^1]: Dingus, T.A., Klauer, S.G., Neale, V.L., Petersen, A., Lee, S.E., Sudweeks, J., Perez, M.A., Hankey, J., Ramsey, D., Gupta, S. and Bucher, C., 2006. The 100-car naturalistic driving study, Phase II-Results of the 100-car field experiment DOT-HS-810-593. United States. Department of Transportation. National Highway Traffic Safety Administration.
 
-From the data collection, an event database has been compiled for 68 crashes and 760 near crashes, as defined in the table below. Note that 75% of the single vehicle crashes were low-g force physical contact or tire strikes; in other words, most of the crashes involved very minor physical contact[^2]. 
+From the data collection, an event database has been compiled for 68 crashes and 760 near crashes, as defined in the table below [^2]. Note that 75% of the single vehicle crashes were low-g force physical contact or tire strikes; in other words, most of the crashes involved very minor physical contact. 
 [^2]: Neale, V.L., Dingus, T.A., Klauer, S.G., Sudweeks, J. and Goodman, M., 2005. An overview of the 100-car naturalistic study and findings. National Highway Traffic Safety Administration, 05-0400.
 
 |Event Category | Definition|
@@ -17,9 +17,8 @@ From the data collection, an event database has been compiled for 68 crashes and
 Including time-series sensor data, event context narratives, and manually remarked descriptions of these events, this database is now made public [^3] under a license of CC0 1.0. The time-series profile for each event contains radar and accelerometer data spanning 30s before the event and 10s after the event. This allows for trajectory reconstruction for the vehicles involved in the events.
 [^3]: Custer, K., 2018. 100-Car data. VITTI. https://doi.org/10.15787/VTT1/CEU6RB
 
-## Examples
-Not all of the events can be reconstructed due to the missing values, inaccuracy of sensing, and the lack of a ground truth. Subsequently, it's tricky to identify the targets in the events, unless it's a lead or following vehicle 
-The following examples show the reconstructed trajectories of vehicles involved in crashes.
+## Reconstructed examples of crashes
+Not all of the events can be reconstructed due to the missing values, inaccuracy of sensing, and the lack of a ground truth. Subsequently, matching the target vehicle among the detected vehicles in each event is neither trivial. In this repository, 9 crashes and 128 near-crashes are matched based on the restriction that there is not sufficient space for a undetected vehicle. The following examples visualise the 9 reconstructed and matched crashes.
 ![til](./visual_examples/event_8360.gif)
 ![til](./visual_examples/event_8453.gif)
 ![til](./visual_examples/event_8469.gif)
@@ -29,9 +28,9 @@ The following examples show the reconstructed trajectories of vehicles involved 
 ![til](./visual_examples/event_9023.gif)
 ![til](./visual_examples/event_9123.gif)
 
-## To rerun the code
+## To repeat/adjust the processing
 ### Python libarary requirements
-`pandas` and `numpy`.
+`pandas`, `tqdm`, `numpy`, `matplotlib`
 
 ### Workflow
 Use function `TTC(samples, 'dataframe')` or `TTC(samples, 'values')` to compute two-dimensional Time-To-Collision.
