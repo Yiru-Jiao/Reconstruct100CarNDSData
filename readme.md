@@ -18,24 +18,17 @@ Including time-series sensor data, event context narratives, and manually remark
 [^3]: Custer, K., 2018. 100-Car data. VITTI. https://doi.org/10.15787/VTT1/CEU6RB
 
 ## Reconstructed examples of crashes
-Not all of the events can be reconstructed due to the missing values, inaccuracy of sensing, and the lack of a ground truth. Subsequently, matching the target vehicle among the detected vehicles in each event is neither trivial. In this repository, 9 crashes and 128 near-crashes are matched based on the restriction that there is not sufficient space for a undetected vehicle. The following examples visualise the 9 reconstructed and matched crashes.
+Not all of the events can be reconstructed due to the missing values, inaccuracy of sensing, and the lack of a ground truth. Subsequently, matching the target vehicle among the detected vehicles in each event is neither trivial. In this repository, 9 crashes and 128 near-crashes are matched based on the restriction that there is not sufficient space for a undetected vehicle. The following example visualises one of the reconstructed and matched crashes. For the rest of the examples, please refer to the folder ./visual_examples.
 ![til](./visual_examples/event_8360.gif)
-![til](./visual_examples/event_8453.gif)
-![til](./visual_examples/event_8469.gif)
-![til](./visual_examples/event_8657.gif)
-![til](./visual_examples/event_8676.gif)
-![til](./visual_examples/event_8678.gif)
-![til](./visual_examples/event_9023.gif)
-![til](./visual_examples/event_9123.gif)
 
 ## To repeat/adjust the processing
 ### Python libarary requirements
 `pandas`, `tqdm`, `numpy`, `matplotlib`
 
 ### Wrokflow
-**Step 1.** Download the raw data from [^3] in the folder `RawData`. This include: 100CarVehicleInformation_v1_0.txt, 100CarEventVideoReducedData_v1_5.txt, HundredCar_Crash_Public_Compiled.txt, HundredCar_NearCrash_Public_Compiled.txt, Researcher Dictionary for Vehicle Data v1_0.pdf, Researcher Dictionary for Video Reduction Data v1.3.pdf, DataDictionary_TimeSeries_v1_2.pdf
+**Step 1.** Download the raw data from [^3] in the folder `RawData`. This include: `100CarVehicleInformation_v1_0.txt`, `100CarEventVideoReducedData_v1_5.txt`, `HundredCar_Crash_Public_Compiled.txt`, `HundredCar_NearCrash_Public_Compiled.txt`, `Researcher Dictionary for Vehicle Data v1_0.pdf`, `Researcher Dictionary for Video Reduction Data v1.3.pdf`, and `DataDictionary_TimeSeries_v1_2.pdf`
 
-**Step 2.** Convert 100CarVehicleInformation_v1_0.txt into 100CarVehicleInformation.csv using microsoft excel or other data sheet tools, and rename the column names based on corresponding data dictionary; similarly, convert the 100CarVehicleInformation_v1_0.txt into 100CarEventVideoReducedData.csv, rename and remain the columns of `webfileid`, `vehicle webid`, `event start`, `event end`, `event severity`, `target type`, `event nature`, then remove "Conflict with " in the descriptions and rename the column name `event nature` by `target`
+**Step 2.** Convert `100CarVehicleInformation_v1_0.txt` into `100CarVehicleInformation.csv` using microsoft excel or other data sheet tools, and rename the column names based on corresponding data dictionary; similarly, convert the `100CarVehicleInformation_v1_0.txt` into `100CarEventVideoReducedData.csv`, rename and remain the columns of `webfileid`, `vehicle webid`, `event start`, `event end`, `event severity`, `target type`, `event nature`, then remove "Conflict with " in the descriptions and rename the column name `event nature` by `target`
 
 **Step 3.** Run `preprocessing_100Car.py`
 
@@ -46,6 +39,6 @@ Not all of the events can be reconstructed due to the missing values, inaccuracy
 **Step 6.** Use `visualiser.ipynb` to observe the reconstructed events
 
 ## Copyright
-Copyright (c) 2022 Yiru Jiao. All rights reserved.
+Copyright (c) 2024 Yiru Jiao. All rights reserved.
 
 This work is licensed under the terms of the MIT license. For a copy, see <https://opensource.org/licenses/MIT>.
