@@ -1,9 +1,20 @@
 # Trajectory reconstruction of (near-)crashes from 100-Car NDS radar data
 This repository reconstructs bird's eye view trajectories of vehicles involved in crashes and near-crashes from 100-Car Naturalistic Driving Study (NDS) radar data.
 
+## 100Car NDS
+>[The 100-Car Naturalistic Driving Study](https://doi.org/10.15787/VTT1/CEU6RB) was an instrumented-vehicle study conducted in the Northern Virginia / Washington, D.C. area over a 2 year period in early 2000s. The primary purpose of the study was to collect large scale naturalistic driving data. To this end, the instrumentation was designed to be unobtrusive, study participants were given no special instructions, and experimenters were not present. Approximately 100 vehicles were instrumented with a suite of sensors including forward and rearward radar, lateral and longitudinal accelerometers, gyro, GPS, access to the vehicle CAN, and five channels of compressed digital video. Collection rates for the various sensors ranged from 1Hz to 10Hz. 
+
+From the data collection, an event database has been compiled for 68 crashes and 760 near crashes. Time series radar data were recorded...
+
+|Event Category | Definition|
+|---|---|
+| Crash | Any contact between the subject vehicle and another vehicle, fixed object, pedestrian pedacyclist, or animal. |
+| Near Crash | Defined as a conflict situation requiring a rapid, severe evasive maneuver to avoid a crash. |
+| Incidents | Conflict requiring an evasive maneuver, but of lesser magnitude than a near crash. |
+
 ## Examples
 ![til](./visual_examples/event_8360.gif)
-![til](./visual_examples/event_8678.avifs)
+![til](./visual_examples/event_8678.gif)
 
 ## To rerun the code
 ### Python libarary requirements
