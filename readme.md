@@ -32,75 +32,18 @@ Not all of the events can be reconstructed due to the missing values, inaccuracy
 ### Python libarary requirements
 `pandas`, `tqdm`, `numpy`, `matplotlib`
 
-### Workflow
-Use function `TTC(samples, 'dataframe')` or `TTC(samples, 'values')` to compute two-dimensional Time-To-Collision.
+### Wrokflow
+**Step 1.** Download the raw data from [^3] in the folder `RawData`. This include: 100CarVehicleInformation_v1_0.txt, 100CarEventVideoReducedData_v1_5.txt, HundredCar_Crash_Public_Compiled.txt, HundredCar_NearCrash_Public_Compiled.txt, Researcher Dictionary for Vehicle Data v1_0.pdf, Researcher Dictionary for Video Reduction Data v1.3.pdf, DataDictionary_TimeSeries_v1_2.pdf
 
-For example,
-````python   
-import sys
-sys.path.append('') # add the path where you save this `.py` file
-import TwoDimTTC
+**Step 2.** Convert 100CarVehicleInformation_v1_0.txt into 100CarVehicleInformation.csv using microsoft excel or other data sheet tools, and rename the column names based on corresponding data dictionary; similarly, convert the 100CarVehicleInformation_v1_0.txt into 100CarEventVideoReducedData.csv, rename and remain the columns of `webfileid`, `vehicle webid`, `event start`, `event end`, `event severity`, `target type`, `event nature`, then remove "Conflict with " in the descriptions and rename the column name `event nature` by `target`
 
-# To return a dataframe with the input vehicle pair samples, where 2D-TTC are saved in a new column named 'TTC'
-samples = TwoDimTTC.TTC(samples, 'dataframe')
+**Step 3.** Run `preprocessing_100Car.py`
 
-# To return a numpy array of 2D-TTC values
-ttc = TwoDimTTC.TTC(samples, 'values')
-````
-## Input
-The first input is a pandas dataframe of vehicle pair samples, which should include the following columns.
-- `x_i`      :  x coordinate of the ego vehicle $i$ (usually assumed to be centroid)
-- `y_i`      :  y coordinate of the ego vehicle $i$ (usually assumed to be centroid)
-- `vx_i`     :  x coordinate of the velocity of the ego vehicle $i$
-- `vy_i`     :  y coordinate of the velocity of the ego vehicle $i$
-- `hx_i`     :  x coordinate of the heading direction of the ego vehicle $i$
-- `hy_i`     :  y coordinate of the heading direction of the ego vehicle $i$
-- `length_i` :  length of the ego vehicle $i$
-- `width_i`  :  width of the ego vehicle $i$
-- `x_j`      :  x coordinate of another vehicle $j$ (usually assumed to be centroid)
-- `y_j`      :  y coordinate of another vehicle $j$ (usually assumed to be centroid)
-- `vx_j`     :  x coordinate of the velocity of another vehicle $j$
-- `vy_j`     :  y coordinate of the velocity of another vehicle $j$
-- `hx_j`     :  x coordinate of the heading direction of another vehicle $j$
-- `hy_j`     :  y coordinate of the heading direction of another vehicle $j$
-- `length_j` :  length of another vehicle $j$
-- `width_j`  :  width of another vehicle $j$
+**Step 4.** Run `processing_100Car.py`
 
-The second input allows outputing a dataframe with inputed samples plus a new column named 'TTC', or mere TTC values.
+**Step 5.** Run `event_matching.py`, which can be adjusted for your own matching
 
-## Output
-If `ttc==np.inf`, the ego vehicle $i$ and another vehicle $j$ will never collide if they keep current speed.
-
-A negative TTC means the boxes of the ego vehicle $i$ and another vehicle $j$ are overlapping. This is due to approximating the space occupied by a vehicle with a rectangular. In other words, `ttc<0` in this computation means the collision between the two vehicles almost (or although seldom, already) occurred.
-
-Note that mere TTC computation can give an extreme small positive value even when the vehivles are overlapping a bit. In order to improve the accuracy, please use function `CurrentD(samples, 'dataframe')` or `CurrentD(samples, 'values')` to further exclude overlapping vehicles. This function calculate current distance between the ego vehicle $i$ and another vehicle $j$, which indicate overlapping when the value is negative.
-
-````python   
-# Within pandas dataframe
-samples = TwoDimTTC.TTC(samples, 'dataframe')
-samples = TwoDimTTC.CurrentD(samples, 'dataframe')
-samples.loc[(samples.CurrentD<0)&(samples.TTC<np.inf)&(samples.TTC>0),'TTC'] = -1
-
-# Using numpy array of values
-ttc = TwoDimTTC.TTC(samples, 'values')
-current_dist = TwoDimTTC.CurrentD(samples, 'values')
-ttc[(current_dist<0)&(ttc<np.inf)&(ttc>0)] = -1
-````
-
-## Efficiency
-Use function `efficiency(samples, iterations)` to test the computation efficiency.
-
-For example,
-````python   
-print('Average time cost = {:.4f} second(s)'.format(TwoDimTTC.efficiency(samples, 10)
-````
-
-The following table shows approximately needed computation time (tested for 10 iterations of experiments).
-| number of vehicle pairs | computation time (s)|
-|-------|-------|
-| 1e4 | 0.0357 |
-| 1e5 | 0.4342 |
-| 1e6 | 7.1657 |
+**Step 6.** Use `visualiser.ipynb` to observe the reconstructed events
 
 ## Copyright
 Copyright (c) 2022 Yiru Jiao. All rights reserved.
