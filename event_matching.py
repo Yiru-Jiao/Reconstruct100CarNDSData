@@ -59,7 +59,7 @@ for crash_type in ['Crash', 'NearCrash']:
             veh_j[['width','length']] = meta.loc[trip_id][['target_width','target_length']].values.astype(float)
 
             df = veh_i.merge(veh_j, on='time', suffixes=('_i', '_j'), how='inner')
-            if df['range'].min()<2.5: # so that no other vehicles can be between the ego and the target
+            if df[df['event'].astype(bool)]['range'].min()<2.5: # so that no other vehicles can be between the ego and the target during event
                 events.append(df)
 
     events = pd.concat(events)
