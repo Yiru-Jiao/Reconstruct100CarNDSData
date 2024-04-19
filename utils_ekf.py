@@ -246,6 +246,6 @@ def reconstruct_surrounding(veh, params=[]):
         ## Save states
         estimates[filterstep,:] = x
 
-    veh[['x_ekf','y_ekf','speed_ekf','psi_ekf']] = estimates
+    veh[['x_ekf','y_ekf','v_ekf','psi_ekf']] = estimates
 
     return veh
