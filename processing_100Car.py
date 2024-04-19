@@ -65,8 +65,8 @@ for crash_type in ['Crash','NearCrash']:
         target_id += 1
 
     # save dataframes
-    data_ego = pd.concat(data_ego)
-    data_sur = pd.concat(data_sur)
+    data_ego = pd.concat(data_ego).reset_index(drop=True).infer_objects()
+    data_sur = pd.concat(data_sur).reset_index(drop=True).infer_objects()
     data_ego[['trip_id','sync','event']] = data_ego[['trip_id','sync','event']].astype(int)
     data_sur[['trip_id','target_id','forward']] = data_sur[['trip_id','target_id','forward']].astype(int)
 
