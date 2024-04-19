@@ -19,7 +19,8 @@ Including time-series sensor data, event context narratives, and manually remark
 
 ## Reconstructed examples of crashes
 Not all of the events can be reconstructed due to the missing values, inaccuracy of sensing, and the lack of a ground truth. Subsequently, matching the target vehicle among the detected vehicles in each event is neither trivial. In this repository, 9 crashes and 116 near-crashes are matched based on the restriction that there is not sufficient space for a undetected vehicle. The following example visualises one of the reconstructed and matched crashes. For the rest of the examples, please refer to the folder ./visual_examples.
-![til](./visual_examples/event_8360.gif)
+![gif](./visual_examples/event_8360.gif)
+![png](./ProcessedData/plots_ekf/Crash/8360.png)
 
 ## To repeat/adjust the processing
 ### Python libarary requirements
