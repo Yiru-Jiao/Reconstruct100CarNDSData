@@ -175,8 +175,8 @@ def process_surrounding(df_ego, df_sur, ego_length, forward=True):
     delta_vx, delta_vy = rotate_coor(-np.cos(df_ego_sur['psi_ekf'].values),
                                     np.sin(df_ego_sur['psi_ekf'].values),
                                     delta_vx, delta_vy)
-    df_sur['speed'] = np.sqrt(((df_ego_sur['v_ekf']*np.cos(df_ego_sur['psi_ekf'])).values + delta_vx)**2 + 
-                                ((df_ego_sur['v_ekf']*np.sin(df_ego_sur['psi_ekf'])).values + delta_vy)**2)
+    df_sur['speed_comp'] = np.sqrt(((df_ego_sur['v_ekf']*np.cos(df_ego_sur['psi_ekf'])).values + delta_vx)**2 + 
+                                   ((df_ego_sur['v_ekf']*np.sin(df_ego_sur['psi_ekf'])).values + delta_vy)**2)
     
     sur_params = {'uncertainty_init':1000.,
                   'uncertainty_pos':500.,

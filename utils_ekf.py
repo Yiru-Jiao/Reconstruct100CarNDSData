@@ -180,7 +180,7 @@ def reconstruct_surrounding(veh, params=[]):
     dt = np.gradient(veh['time'])
     R = np.diag([uncertainty_pos,uncertainty_pos,uncertainty_speed]) # Measurement Noise
     I = np.eye(numstates)
-    mx, my, mv = veh['x'].values, veh['y'].values, veh['speed'].values
+    mx, my, mv = veh['x'].values, veh['y'].values, veh['speed_comp'].values
     Trigger = (mv>0.).astype('bool') # Perform EKF when speed is not zero
 
     ## Measurement vector
