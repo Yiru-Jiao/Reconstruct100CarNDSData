@@ -1,0 +1,829 @@
+webfileid,vehicle webid,event start,event end,event severity,target type,target
+8296,1038,1010,1050,Near-Crash,Automobile,lead vehicle
+8297,1038,2475,2530,Near-Crash,Automobile,lead vehicle
+8298,1016,8172,8283,Near-Crash,Pickup truck,vehicle in adjacent lane
+8299,1016,5411,5467,Near-Crash,Tractor-trailer: Enclosed box,Single vehicle conflict
+8300,1081,2490,2660,Near-Crash,Pickup truck,vehicle in adjacent lane
+8301,1023,3600,3651,Near-Crash,Automobile,vehicle in adjacent lane
+8302,1023,70,113,Crash,Automobile,Single vehicle conflict
+8303,1081,600,640,Near-Crash,Automobile,vehicle in adjacent lane
+8304,1075,667,740,Near-Crash,Automobile,vehicle moving across another path (through intersection)
+8305,1016,7198,7272,Near-Crash,Automobile,vehicle in adjacent lane
+8306,1016,58,140,Near-Crash,Sport Utility Vehicles,lead vehicle
+8307,1016,0,80,Crash,No analyzed data,Single vehicle conflict
+8308,1055,2816,2938,Near-Crash,Automobile,vehicle moving across another path (through intersection)
+8309,1081,285,330,Near-Crash,Sport Utility Vehicles,following vehicle
+8310,1081,787,841,Near-Crash,Sport Utility Vehicles,oncoming traffic
+8311,1075,13634,13708,Near-Crash,Automobile,lead vehicle
+8312,1074,18132,18186,Near-Crash,Automobile,following vehicle
+8313,1074,5869,5939,Crash,Automobile,lead vehicle
+8314,1051,2105,2150,Near-Crash,No analyzed data,Single vehicle conflict
+8315,1051,4450,4502,Near-Crash,Automobile,following vehicle
+8316,1014,256,285,Near-Crash,Automobile,vehicle turning into another path (opposite direction)
+8317,1014,31276,31381,Near-Crash,Van (minivan or standard van),lead vehicle
+8318,1016,0,75,Near-Crash,Automobile,lead vehicle
+8319,1016,690,765,Near-Crash,Sport Utility Vehicles,following vehicle
+8320,1024,16325,16356,Near-Crash,Automobile,lead vehicle
+8321,1024,17839,17870,Near-Crash,Automobile,lead vehicle
+8322,1049,2196,2263,Crash,Automobile,lead vehicle
+8323,1049,2930,2983,Near-Crash,Automobile,vehicle in adjacent lane
+8324,1006,5661,5689,Near-Crash,Automobile,vehicle turning across another path (opposite direction)
+8325,1055,9228,9280,Near-Crash,Sport Utility Vehicles,vehicle turning across another path (opposite direction)
+8326,1055,6822,6857,Near-Crash,Automobile,lead vehicle
+8327,1074,703,763,Near-Crash,Pickup truck,vehicle in adjacent lane
+8328,1038,7180,7311,Crash,Automobile,following vehicle
+8329,1038,2470,2560,Near-Crash,Sport Utility Vehicles,vehicle in adjacent lane
+8330,1046,3049,3114,Near-Crash,Automobile,lead vehicle
+8331,1046,135,164,Near-Crash,Sport Utility Vehicles,lead vehicle
+8332,1046,5734,5791,Near-Crash,Sport Utility Vehicles,lead vehicle
+8333,1016,400,450,Near-Crash,Automobile,lead vehicle
+8334,1042,3390,3429,Near-Crash,Automobile,lead vehicle
+8335,1023,7751,7788,Near-Crash,Automobile,lead vehicle
+8336,1023,7007,7034,Near-Crash,Object,obstacle/object in roadway
+8337,1068,2952,3002,Near-Crash,Pickup truck,following vehicle
+8338,1079,11896,11957,Crash,No analyzed data,Single vehicle conflict
+8339,1063,1671,1716,Near-Crash,Automobile,merging vehicle
+8340,1063,7150,7194,Near-Crash,Automobile,vehicle in adjacent lane
+8341,1011,7245,7303,Near-Crash,Automobile,following vehicle
+8342,1017,3462,3531,Near-Crash,Tractor-trailer: Enclosed box,vehicle in adjacent lane
+8343,1017,13171,13226,Near-Crash,Pickup truck,lead vehicle
+8344,1020,2763,2824,Near-Crash,Automobile,lead vehicle
+8345,1046,35900,35959,Near-Crash,Automobile,lead vehicle
+8346,1046,22613,22638,Near-Crash,Van (minivan or standard van),lead vehicle
+8347,1046,2084,2172,Near-Crash,Automobile,vehicle moving across another path (through intersection)
+8348,1051,1080,1137,Near-Crash,Automobile,lead vehicle
+8349,1051,8052,8120,Near-Crash,Automobile,lead vehicle
+8350,1018,2894,2934,Near-Crash,Automobile,lead vehicle
+8351,1018,6867,6911,Near-Crash,Automobile,oncoming traffic
+8352,1018,6174,6255,Near-Crash,Van (minivan or standard van),following vehicle
+8353,1073,4502,4557,Near-Crash,Automobile,lead vehicle
+8354,1014,5646,5729,Near-Crash,Van (minivan or standard van),lead vehicle
+8355,1014,1020,1050,Near-Crash,Van (minivan or standard van),lead vehicle
+8356,1014,11027,11091,Near-Crash,Van (minivan or standard van),lead vehicle
+8357,1064,2100,2156,Near-Crash,Automobile,lead vehicle
+8358,2006,10630,10692,Near-Crash,Automobile,vehicle in adjacent lane
+8359,1081,811,868,Near-Crash,School bus,vehicle turning into another path (same direction)
+8360,1019,67,79,Crash,Automobile,following vehicle
+8361,1063,2739,2773,Near-Crash,Automobile,oncoming traffic
+8362,1063,1458,1544,Near-Crash,Automobile,vehicle moving across another path (through intersection)
+8363,1046,5706,5743,Near-Crash,Van (minivan or standard van),lead vehicle
+8364,1046,1978,2011,Near-Crash,Automobile,lead vehicle
+8365,1058,9082,9115,Near-Crash,Automobile,lead vehicle
+8366,1058,4778,4869,Near-Crash,Automobile,vehicle in adjacent lane
+8367,1016,4418,4483,Near-Crash,Automobile,following vehicle
+8368,1055,2716,2759,Near-Crash,Automobile,lead vehicle
+8369,1055,18808,18856,Near-Crash,Sport Utility Vehicles,lead vehicle
+8370,1079,2520,2581,Near-Crash,Automobile,vehicle in adjacent lane
+8371,1079,7668,7722,Near-Crash,Automobile,lead vehicle
+8372,1081,17175,17202,Near-Crash,Automobile,vehicle turning across another path (opposite direction)
+8373,1034,32053,32093,Near-Crash,Automobile,lead vehicle
+8374,1014,1672,1717,Near-Crash,Automobile,following vehicle
+8375,1014,2447,2482,Near-Crash,Automobile,vehicle moving across another path (through intersection)
+8376,1014,33338,33369,Near-Crash,Sport Utility Vehicles,vehicle in adjacent lane
+8377,1014,2611,2637,Near-Crash,Pickup truck,lead vehicle
+8378,1014,2265,2307,Near-Crash,Van (minivan or standard van),lead vehicle
+8379,1014,2189,2258,Near-Crash,Automobile,lead vehicle
+8380,1014,2836,2941,Near-Crash,Automobile,following vehicle
+8381,1014,2375,2412,Near-Crash,Automobile,lead vehicle
+8382,1020,5313,5407,Near-Crash,Automobile,lead vehicle
+8383,1014,3820,3843,Near-Crash,No analyzed data,Single vehicle conflict
+8384,1024,3340,3394,Near-Crash,Automobile,lead vehicle
+8385,1034,7145,7205,Near-Crash,No analyzed data,Single vehicle conflict
+8386,1034,33518,33587,Near-Crash,Automobile,lead vehicle
+8387,1034,36156,36207,Near-Crash,Automobile,vehicle turning into another path (same direction)
+8388,2012,9546,9610,Near-Crash,Automobile,lead vehicle
+8389,1022,994,1036,Near-Crash,Automobile,lead vehicle
+8390,1072,3585,3633,Near-Crash,Automobile,lead vehicle
+8391,1072,3666,3729,Near-Crash,Automobile,vehicle turning into another path (same direction)
+8392,1011,1565,1610,Near-Crash,Sport Utility Vehicles,vehicle in adjacent lane
+8393,1055,2024,2063,Near-Crash,Automobile,lead vehicle
+8394,1020,14752,14834,Near-Crash,Van (minivan or standard van),vehicle in adjacent lane
+8395,1020,3347,3405,Near-Crash,Automobile,lead vehicle
+8396,1029,9880,9903,Crash,Object,obstacle/object in roadway
+8397,1029,2385,2457,Near-Crash,Van (minivan or standard van),lead vehicle
+8398,1079,6973,7023,Near-Crash,Automobile,lead vehicle
+8399,1058,12285,12339,Near-Crash,Van (minivan or standard van),lead vehicle
+8400,1024,4772,4797,Near-Crash,Sport Utility Vehicles,vehicle in adjacent lane
+8401,2004,82846,82874,Near-Crash,Automobile,oncoming traffic
+8402,1029,12304,12352,Near-Crash,Automobile,lead vehicle
+8403,1029,5588,5698,Near-Crash,Automobile,lead vehicle
+8404,1047,4142,4263,Near-Crash,Sport Utility Vehicles,lead vehicle
+8405,1063,6123,6180,Near-Crash,Automobile,vehicle in adjacent lane
+8406,1011,9602,9638,Near-Crash,Single-unit straight truck: Box,lead vehicle
+8407,1049,35801,35840,Near-Crash,Automobile,lead vehicle
+8408,1038,1562,1609,Near-Crash,Automobile,oncoming traffic
+8409,1034,3620,3658,Near-Crash,No analyzed data,Single vehicle conflict
+8410,1014,13305,13370,Near-Crash,Sport Utility Vehicles,lead vehicle
+8411,1008,6372,6451,Near-Crash,Automobile,oncoming traffic
+8412,1060,2834,2890,Near-Crash,Pickup truck,lead vehicle
+8413,1079,6460,6533,Near-Crash,Automobile,vehicle in adjacent lane
+8414,1035,39222,39280,Near-Crash,Automobile,vehicle in adjacent lane
+8415,2008,57880,57951,Near-Crash,Automobile,merging vehicle
+8416,2003,8743,8822,Near-Crash,Automobile,vehicle in adjacent lane
+8417,1021,8372,8402,Near-Crash,Automobile,lead vehicle
+8418,1051,2796,2852,Near-Crash,Automobile,vehicle in adjacent lane
+8419,1080,20976,21061,Near-Crash,Sport Utility Vehicles,vehicle in adjacent lane
+8420,2004,30341,30371,Near-Crash,Automobile,lead vehicle
+8421,2004,42746,42803,Near-Crash,Automobile,vehicle in adjacent lane
+8422,1016,2160,2255,Near-Crash,Automobile,lead vehicle
+8423,2001,659,1174,Near-Crash,Automobile,vehicle in adjacent lane
+8424,2008,20330,20373,Near-Crash,Automobile,vehicle turning into another path (same direction)
+8425,1026,1980,2030,Near-Crash,Van (minivan or standard van),lead vehicle
+8426,2003,7813,7888,Near-Crash,Automobile,lead vehicle
+8427,2003,13741,13836,Near-Crash,Van (minivan or standard van),lead vehicle
+8428,2003,12773,12802,Near-Crash,Automobile,following vehicle
+8429,2004,12800,12847,Near-Crash,Automobile,vehicle moving across another path (through intersection)
+8430,2004,44497,44529,Near-Crash,Other vehicle type,vehicle turning across another path (opposite direction)
+8431,1016,9714,9858,Crash,Object,obstacle/object in roadway
+8432,1043,4474,4503,Near-Crash,Pickup truck,oncoming traffic
+8433,1008,16601,16666,Near-Crash,Single-unit straight truck: Box,following vehicle
+8434,1046,1207,1264,Near-Crash,Automobile,following vehicle
+8435,1075,6708,6752,Near-Crash,Automobile,lead vehicle
+8436,1075,49976,50006,Near-Crash,Transit bus,Single vehicle conflict
+8437,1034,14628,14672,Near-Crash,Automobile,lead vehicle
+8438,1034,9522,9575,Near-Crash,Pickup truck,lead vehicle
+8439,1034,6512,6582,Near-Crash,Sport Utility Vehicles,lead vehicle
+8440,1006,667,714,Near-Crash,Automobile,lead vehicle
+8441,1006,5192,5232,Near-Crash,Automobile,vehicle in adjacent lane
+8442,1034,0,42,Near-Crash,Automobile,vehicle in adjacent lane
+8443,1034,1473,1508,Near-Crash,Automobile,lead vehicle
+8444,1034,13002,13078,Near-Crash,Sport Utility Vehicles,lead vehicle
+8445,1034,29918,29965,Near-Crash,Automobile,lead vehicle
+8446,1034,7116,7177,Near-Crash,Automobile,lead vehicle
+8447,1034,6861,6957,Near-Crash,Tractor-trailer: Enclosed box,vehicle in adjacent lane
+8448,1034,14662,14704,Near-Crash,Automobile,lead vehicle
+8449,1034,5709,5755,Near-Crash,Automobile,lead vehicle
+8450,1005,13535,13639,Near-Crash,Automobile,lead vehicle
+8451,1060,877,960,Crash,Automobile,vehicle turning across another path (opposite direction)
+8452,1005,21500,21581,Near-Crash,Pickup truck,lead vehicle
+8453,1005,7985,8027,Crash,Sport Utility Vehicles,lead vehicle
+8454,1022,285,325,Near-Crash,Automobile,vehicle in adjacent lane
+8455,1078,10005,10096,Near-Crash,Automobile,lead vehicle
+8456,2013,25784,25876,Near-Crash,Van (minivan or standard van),lead vehicle
+8457,1042,17250,17333,Near-Crash,Sport Utility Vehicles,lead vehicle
+8458,1013,6615,6650,Near-Crash,No analyzed data,Single vehicle conflict
+8459,1002,3482,3693,Near-Crash,Automobile,vehicle in adjacent lane
+8460,1026,4605,4655,Near-Crash,Sport Utility Vehicles,lead vehicle
+8461,1003,10880,10925,Near-Crash,Automobile,oncoming traffic
+8462,1076,6331,6377,Near-Crash,Automobile,vehicle turning across another path (opposite direction)
+8463,1076,10695,10739,Near-Crash,Automobile,following vehicle
+8464,1042,3341,3400,Near-Crash,Automobile,lead vehicle
+8465,1018,6534,6563,Near-Crash,Automobile,following vehicle
+8466,1071,155,176,Near-Crash,Automobile,vehicle in adjacent lane
+8467,1036,38529,38571,Crash,No analyzed data,Single vehicle conflict
+8468,1029,732,774,Near-Crash,Pickup truck,lead vehicle
+8469,1011,7242,7295,Crash,Automobile,lead vehicle
+8470,1074,2176,2231,Near-Crash,Automobile,following vehicle
+8471,1014,2992,3071,Near-Crash,Automobile,obstacle/object in roadway
+8472,1016,8839,8895,Near-Crash,Automobile,following vehicle
+8473,1016,11990,12040,Near-Crash,Sport Utility Vehicles,lead vehicle
+8474,1016,11007,11061,Near-Crash,Van (minivan or standard van),lead vehicle
+8475,2014,3076,3164,Crash,Pickup truck,lead vehicle
+8476,1016,270,331,Near-Crash,Automobile,vehicle moving across another path (through intersection)
+8477,1016,5482,5602,Near-Crash,Automobile,following vehicle
+8478,2004,8566,8649,Near-Crash,Unknown vehicle type,following vehicle
+8479,1034,14622,14717,Near-Crash,Automobile,vehicle turning into another path (same direction)
+8480,1034,1143,1172,Near-Crash,Automobile,lead vehicle
+8481,1079,2910,2947,Near-Crash,Automobile,lead vehicle
+8482,1079,16789,17105,Near-Crash,Automobile,following vehicle
+8483,1063,8861,8917,Near-Crash,Van (minivan or standard van),merging vehicle
+8484,1007,2255,2336,Near-Crash,Van (minivan or standard van),lead vehicle
+8485,1076,11824,11870,Near-Crash,Pickup truck,lead vehicle
+8486,2008,6650,6692,Near-Crash,Automobile,vehicle in adjacent lane
+8487,1028,4331,4362,Near-Crash,Sport Utility Vehicles,lead vehicle
+8488,2001,2912,3058,Near-Crash,Pickup truck,vehicle turning into another path (same direction)
+8489,1020,8057,8100,Near-Crash,Sport Utility Vehicles,vehicle in adjacent lane
+8490,1020,4471,4521,Near-Crash,Automobile,lead vehicle
+8491,1020,8852,8903,Near-Crash,Automobile,lead vehicle
+8492,1020,8558,8594,Near-Crash,Automobile,lead vehicle
+8493,1056,18450,18486,Near-Crash,Van (minivan or standard van),lead vehicle
+8494,1007,6622,6693,Near-Crash,Automobile,vehicle in adjacent lane
+8495,1007,13210,13261,Near-Crash,Automobile,vehicle in adjacent lane
+8496,1007,7258,7394,Near-Crash,Automobile,vehicle in adjacent lane
+8497,1007,32774,32842,Near-Crash,Automobile,vehicle in adjacent lane
+8498,1007,578,719,Near-Crash,Automobile,following vehicle
+8499,1007,14902,14953,Near-Crash,Automobile,vehicle turning across another path (opposite direction)
+8500,1007,6641,6724,Near-Crash,Automobile,lead vehicle
+8501,1020,3055,3132,Near-Crash,Pickup truck,vehicle turning into another path (same direction)
+8502,1020,6686,6735,Near-Crash,Van (minivan or standard van),lead vehicle
+8503,1012,11142,11198,Crash,Sport Utility Vehicles,parked vehicle
+8504,1049,749,810,Near-Crash,Pickup truck,following vehicle
+8505,1061,1111,1175,Near-Crash,Automobile,lead vehicle
+8506,1022,14914,15014,Near-Crash,Van (minivan or standard van),lead vehicle
+8507,1006,1063,1140,Near-Crash,Automobile,vehicle turning into another path (same direction)
+8508,1068,4090,4146,Near-Crash,Sport Utility Vehicles,lead vehicle
+8509,1068,214,251,Near-Crash,Automobile,lead vehicle
+8510,1008,3263,3308,Near-Crash,Automobile,vehicle turning across another path (opposite direction)
+8511,1074,2544,2595,Near-Crash,Pickup truck,vehicle in adjacent lane
+8512,1021,20,174,Crash,Automobile,following vehicle
+8513,1021,34008,34076,Near-Crash,Automobile,lead vehicle
+8514,1021,13052,13185,Near-Crash,Automobile,vehicle in adjacent lane
+8515,1042,3327,3334,Near-Crash,Van (minivan or standard van),lead vehicle
+8516,1044,10543,10597,Near-Crash,Sport Utility Vehicles,lead vehicle
+8517,1043,7670,7903,Near-Crash,Automobile,following vehicle
+8518,1079,526,550,Near-Crash,Automobile,oncoming traffic
+8519,1076,28552,28618,Crash,No analyzed data,Single vehicle conflict
+8520,1076,11094,11143,Near-Crash,Van (minivan or standard van),vehicle turning into another path (same direction)
+8521,1037,50203,50245,Near-Crash,Automobile,following vehicle
+8522,1037,4183,4264,Near-Crash,Van (minivan or standard van),following vehicle
+8523,1061,5820,5916,Near-Crash,Van (minivan or standard van),lead vehicle
+8524,1061,14261,14322,Near-Crash,Automobile,lead vehicle
+8525,1061,6979,7017,Near-Crash,Automobile,vehicle in adjacent lane
+8526,1061,5433,5464,Near-Crash,Automobile,parked vehicle
+8527,1061,10443,10525,Near-Crash,Automobile,following vehicle
+8528,1061,6122,6159,Near-Crash,Automobile,vehicle turning across another path (opposite direction)
+8529,1009,11400,11449,Near-Crash,Sport Utility Vehicles,lead vehicle
+8530,1023,350,390,Near-Crash,Van (minivan or standard van),lead vehicle
+8531,1034,2242,2295,Near-Crash,Automobile,vehicle in adjacent lane
+8532,1014,3600,3644,Near-Crash,Automobile,vehicle in adjacent lane
+8533,1018,777,805,Near-Crash,Automobile,lead vehicle
+8534,1049,9976,10033,Near-Crash,Automobile,lead vehicle
+8535,1056,7762,7816,Near-Crash,Van (minivan or standard van),lead vehicle
+8536,1037,11817,11881,Near-Crash,Sport Utility Vehicles,lead vehicle
+8537,1021,8214,8299,Near-Crash,Sport Utility Vehicles,following vehicle
+8538,1001,1082,1141,Near-Crash,No analyzed data,Single vehicle conflict
+8539,1034,20209,20260,Near-Crash,Automobile,lead vehicle
+8540,1034,18150,18185,Near-Crash,No analyzed data,Single vehicle conflict
+8541,1034,17668,17696,Near-Crash,No analyzed data,Single vehicle conflict
+8542,1054,10559,10598,Near-Crash,Automobile,lead vehicle
+8543,1054,21375,21420,Near-Crash,Automobile,lead vehicle
+8544,1054,10674,10703,Near-Crash,Automobile,lead vehicle
+8545,1054,624,667,Near-Crash,Automobile,vehicle in adjacent lane
+8546,1034,10885,10946,Near-Crash,No analyzed data,Single vehicle conflict
+8547,1034,11517,11570,Near-Crash,Automobile,following vehicle
+8548,1034,4183,4226,Near-Crash,Pickup truck,lead vehicle
+8549,1044,59531,59566,Crash,No analyzed data,Single vehicle conflict
+8550,1051,6109,6134,Near-Crash,Automobile,vehicle in adjacent lane
+8551,1008,5474,5511,Crash,No analyzed data,Single vehicle conflict
+8552,1029,15211,15354,Near-Crash,Single-unit straight truck: Flatbed,vehicle in adjacent lane
+8553,1029,13855,14103,Near-Crash,Sport Utility Vehicles,lead vehicle
+8554,1040,190,251,Crash,Automobile,following vehicle
+8555,1027,10501,10544,Near-Crash,Automobile,lead vehicle
+8556,1027,1114,1142,Near-Crash,Automobile,parked vehicle
+8557,1042,13405,13445,Near-Crash,Single-unit straight truck: Box,vehicle in adjacent lane
+8558,1006,4151,4197,Near-Crash,Automobile,lead vehicle
+8559,1018,3355,3405,Near-Crash,Automobile,lead vehicle
+8560,1018,21743,21773,Near-Crash,Van (minivan or standard van),vehicle in adjacent lane
+8561,1074,12948,13012,Near-Crash,Pickup truck,lead vehicle
+8562,1027,8620,8659,Near-Crash,No analyzed data,Single vehicle conflict
+8563,1014,3314,3376,Near-Crash,Cyclist,pedalcyclist
+8564,1014,4115,4177,Near-Crash,Automobile,vehicle in adjacent lane
+8565,1070,6435,6491,Near-Crash,Automobile,lead vehicle
+8566,1046,1452,1510,Near-Crash,Animal,animal
+8567,1008,3880,3938,Crash,No analyzed data,Single vehicle conflict
+8568,1008,1014,1055,Near-Crash,Automobile,following vehicle
+8569,1063,3182,3229,Near-Crash,Animal,animal
+8570,1063,44077,44125,Near-Crash,Unknown vehicle type,lead vehicle
+8571,1049,3246,3284,Near-Crash,Automobile,lead vehicle
+8572,1066,11720,11753,Near-Crash,Automobile,lead vehicle
+8573,1078,3049,3110,Near-Crash,Van (minivan or standard van),vehicle in adjacent lane
+8574,1066,2313,2334,Near-Crash,Automobile,vehicle turning into another path (same direction)
+8575,1050,45,85,Crash,No analyzed data,Single vehicle conflict
+8576,1063,9082,9121,Near-Crash,Automobile,vehicle turning across another path (opposite direction)
+8577,1063,19925,19987,Near-Crash,Automobile,vehicle in adjacent lane
+8578,1029,24,64,Crash,Object,obstacle/object in roadway
+8579,1056,7380,7417,Near-Crash,Pickup truck,following vehicle
+8580,2003,35245,35294,Near-Crash,Sport Utility Vehicles,vehicle in adjacent lane
+8581,2003,7469,7520,Near-Crash,Automobile,lead vehicle
+8582,1066,5389,5433,Near-Crash,No analyzed data,Single vehicle conflict
+8583,1081,12061,12113,Near-Crash,Automobile,lead vehicle
+8584,1051,61408,61477,Near-Crash,Automobile,lead vehicle
+8585,1036,1030,1078,Crash,No analyzed data,Single vehicle conflict
+8586,1051,36412,36499,Near-Crash,Van (minivan or standard van),vehicle moving across another path (through intersection)
+8587,1084,1555,1642,Near-Crash,Tractor-trailer: Enclosed box,lead vehicle
+8588,2003,172,245,Near-Crash,Automobile,vehicle in adjacent lane
+8589,1064,6601,6647,Near-Crash,Sport Utility Vehicles,lead vehicle
+8590,1029,833,875,Near-Crash,Automobile,lead vehicle
+8591,1034,1042,1106,Near-Crash,Automobile,Single vehicle conflict
+8592,1029,746,796,Near-Crash,Van (minivan or standard van),lead vehicle
+8593,1029,20556,20702,Crash,Object,obstacle/object in roadway
+8594,1029,16073,16149,Near-Crash,Automobile,vehicle in adjacent lane
+8595,1029,6898,6945,Near-Crash,Sport Utility Vehicles,lead vehicle
+8596,1029,9117,9166,Near-Crash,Sport Utility Vehicles,lead vehicle
+8597,1029,36377,36453,Near-Crash,Automobile,vehicle turning across another path (opposite direction)
+8598,1029,12984,13062,Near-Crash,Van (minivan or standard van),vehicle in adjacent lane
+8599,1070,7800,7837,Near-Crash,Automobile,lead vehicle
+8600,1070,27328,27376,Near-Crash,Automobile,lead vehicle
+8601,1085,1965,2009,Near-Crash,Automobile,vehicle in adjacent lane
+8602,1085,21887,21959,Near-Crash,Automobile,vehicle in adjacent lane
+8603,1085,1396,1459,Near-Crash,Van (minivan or standard van),vehicle in adjacent lane
+8604,1050,131,189,Near-Crash,Automobile,lead vehicle
+8605,1001,4932,5001,Near-Crash,Automobile,vehicle in adjacent lane
+8606,1070,8155,8194,Near-Crash,Sport Utility Vehicles,lead vehicle
+8607,2008,5510,5549,Near-Crash,Object,Single vehicle conflict
+8608,1062,41370,41437,Near-Crash,Tractor-trailer: Enclosed box,vehicle in adjacent lane
+8609,1067,6444,6524,Near-Crash,Automobile,parked vehicle
+8610,1067,7960,8020,Near-Crash,Automobile,vehicle turning across another path (same direction)
+8611,1023,12268,12297,Near-Crash,Automobile,Single vehicle conflict
+8612,1006,28424,28470,Near-Crash,Automobile,vehicle turning across another path (same direction)
+8613,1018,3089,3129,Near-Crash,Automobile,lead vehicle
+8614,1079,6370,6430,Near-Crash,Tractor-trailer: Enclosed box,vehicle in adjacent lane
+8615,1012,4109,4165,Near-Crash,Van (minivan or standard van),lead vehicle
+8616,1079,17065,17132,Near-Crash,Van (minivan or standard van),vehicle turning across another path (opposite direction)
+8617,1063,63,97,Near-Crash,Automobile,lead vehicle
+8618,1063,709,814,Near-Crash,Automobile,lead vehicle
+8619,1047,17476,17535,Near-Crash,Sport Utility Vehicles,vehicle in adjacent lane
+8620,1038,6727,6773,Crash,Object,obstacle/object in roadway
+8621,1038,3306,3379,Near-Crash,No analyzed data,Single vehicle conflict
+8622,1074,14328,14374,Near-Crash,Automobile,vehicle in adjacent lane
+8623,1007,4291,4347,Near-Crash,Automobile,vehicle in adjacent lane
+8624,1021,6962,7016,Near-Crash,Automobile,lead vehicle
+8625,1008,15582,15646,Near-Crash,Automobile,following vehicle
+8626,1008,16983,17030,Crash,Automobile,parked vehicle
+8627,1008,2978,3032,Near-Crash,Automobile,vehicle moving across another path (through intersection)
+8628,1008,3234,3274,Near-Crash,Sport Utility Vehicles,lead vehicle
+8629,1008,983,1030,Near-Crash,Automobile,lead vehicle
+8630,1011,233,268,Near-Crash,Automobile,lead vehicle
+8631,1073,2396,2467,Near-Crash,Automobile,lead vehicle
+8632,1045,425,473,Near-Crash,Automobile,lead vehicle
+8633,1042,132,162,Crash,Automobile,lead vehicle
+8634,1044,5723,5761,Near-Crash,Sport Utility Vehicles,vehicle turning into another path (same direction)
+8635,1051,13474,13545,Near-Crash,Automobile,lead vehicle
+8636,1029,20750,20800,Near-Crash,Automobile,lead vehicle
+8637,1029,179,238,Near-Crash,Automobile,lead vehicle
+8638,1029,5835,5901,Near-Crash,Automobile,lead vehicle
+8639,2013,1963,2008,Near-Crash,Automobile,lead vehicle
+8640,1061,12849,12895,Near-Crash,Automobile,vehicle in adjacent lane
+8641,1061,9488,9574,Near-Crash,Van (minivan or standard van),lead vehicle
+8642,1007,12651,12702,Near-Crash,Automobile,lead vehicle
+8643,1015,11341,11373,Near-Crash,No analyzed data,Single vehicle conflict
+8644,1015,6974,7019,Near-Crash,Automobile,lead vehicle
+8645,1015,409,430,Near-Crash,Van (minivan or standard van),lead vehicle
+8646,1015,1603,1650,Near-Crash,Sport Utility Vehicles,vehicle moving across another path (through intersection)
+8647,1027,16274,16306,Near-Crash,Sport Utility Vehicles,lead vehicle
+8648,1049,2427,2464,Near-Crash,Automobile,lead vehicle
+8649,1070,5677,5712,Near-Crash,No analyzed data,Single vehicle conflict
+8650,1006,24214,24256,Near-Crash,Automobile,oncoming traffic
+8651,1006,192,252,Near-Crash,Automobile,vehicle moving across another path (through intersection)
+8652,1006,1770,1831,Near-Crash,Automobile,lead vehicle
+8653,2004,5121,5132,Near-Crash,Object,obstacle/object in roadway
+8654,1074,1565,1647,Near-Crash,Sport Utility Vehicles,lead vehicle
+8655,1070,9327,9362,Near-Crash,Automobile,lead vehicle
+8656,1070,6473,6529,Near-Crash,Automobile,lead vehicle
+8657,1070,144,187,Crash,Automobile,lead vehicle
+8658,1065,23164,23209,Near-Crash,Automobile,lead vehicle
+8659,1008,6431,6536,Near-Crash,Automobile,vehicle moving across another path (through intersection)
+8660,1012,8446,8600,Near-Crash,Automobile,vehicle turning into another path (same direction)
+8661,1060,1506,1683,Crash,Automobile,lead vehicle
+8662,2004,10652,10678,Near-Crash,Automobile,lead vehicle
+8663,2004,4750,4797,Near-Crash,Automobile,lead vehicle
+8664,1063,10555,10611,Near-Crash,Automobile,Other
+8665,1029,1262,1317,Near-Crash,Automobile,lead vehicle
+8666,1006,304,338,Near-Crash,Automobile,vehicle turning across another path (opposite direction)
+8667,1062,4280,4323,Near-Crash,Van (minivan or standard van),lead vehicle
+8668,1050,18732,18791,Near-Crash,Automobile,following vehicle
+8669,1049,4103,4148,Near-Crash,Pickup truck,lead vehicle
+8670,2007,11876,11952,Near-Crash,Automobile,vehicle moving across another path (through intersection)
+8671,1059,16561,16611,Near-Crash,Automobile,vehicle in adjacent lane
+8672,1061,8840,8903,Near-Crash,Automobile,lead vehicle
+8673,1059,4942,4985,Near-Crash,Sport Utility Vehicles,lead vehicle
+8674,1066,11193,11217,Near-Crash,Animal,animal
+8675,1074,965,998,Near-Crash,Pedestrian,pedestrian
+8676,1074,21952,22009,Crash,Automobile,lead vehicle
+8677,1029,9547,9606,Near-Crash,Automobile,lead vehicle
+8678,1061,10835,10889,Crash,Automobile,lead vehicle
+8679,1074,2190,2256,Near-Crash,Automobile,following vehicle
+8680,1074,4296,4354,Near-Crash,No analyzed data,Single vehicle conflict
+8681,1006,5961,6002,Near-Crash,Pickup truck,lead vehicle
+8682,1006,15627,15661,Near-Crash,Sport Utility Vehicles,lead vehicle
+8683,1008,5812,5850,Near-Crash,Automobile,lead vehicle
+8684,1085,12313,12377,Near-Crash,Automobile,Single vehicle conflict
+8685,2008,9597,9633,Near-Crash,Automobile,vehicle moving across another path (through intersection)
+8686,1023,19994,20028,Near-Crash,No analyzed data,Single vehicle conflict
+8687,1014,522,568,Near-Crash,Automobile,lead vehicle
+8688,1014,12420,12462,Near-Crash,Automobile,lead vehicle
+8689,1022,21800,21853,Near-Crash,Automobile,lead vehicle
+8690,1027,9810,9944,Near-Crash,Sport Utility Vehicles,following vehicle
+8691,1020,1674,1749,Near-Crash,Sport Utility Vehicles,lead vehicle
+8692,1023,24225,24281,Near-Crash,Automobile,oncoming traffic
+8693,1045,26840,26907,Near-Crash,No analyzed data,Single vehicle conflict
+8694,1020,30582,30658,Near-Crash,Automobile,vehicle in adjacent lane
+8695,1020,60,112,Near-Crash,Automobile,lead vehicle
+8696,1037,17560,17607,Near-Crash,Automobile,vehicle in adjacent lane
+8697,1066,3500,3551,Near-Crash,Animal,animal
+8698,1074,19072,19129,Crash,Pickup truck,following vehicle
+8699,2007,9803,9893,Near-Crash,Automobile,vehicle in adjacent lane
+8700,1025,1531,1576,Near-Crash,Animal,animal
+8701,1062,6499,6536,Near-Crash,Automobile,vehicle turning into another path (same direction)
+8702,1025,4145,4206,Near-Crash,Automobile,following vehicle
+8703,1021,6155,6192,Near-Crash,Automobile,following vehicle
+8704,1031,6407,6491,Near-Crash,No analyzed data,Single vehicle conflict
+8705,1032,22178,22237,Near-Crash,Automobile,oncoming traffic
+8706,1032,46997,47076,Near-Crash,Animal,animal
+8707,1021,1254,1296,Near-Crash,No analyzed data,Single vehicle conflict
+8708,1045,5678,5724,Near-Crash,Van (minivan or standard van),lead vehicle
+8709,1006,2357,2434,Near-Crash,Automobile,vehicle turning across another path (opposite direction)
+8710,1051,6150,6213,Near-Crash,Single-unit straight truck: Tow truck,lead vehicle
+8711,1008,21623,21659,Near-Crash,Automobile,lead vehicle
+8712,1031,3052,3096,Crash,No analyzed data,Single vehicle conflict
+8713,1015,5496,5584,Crash,Pickup truck,following vehicle
+8714,1050,1900,1946,Near-Crash,Single-unit straight truck: Box,following vehicle
+8715,1070,3911,3958,Near-Crash,Pedestrian,pedestrian
+8716,1070,4398,4427,Near-Crash,Automobile,lead vehicle
+8717,1012,1171,1216,Crash,No analyzed data,Single vehicle conflict
+8718,1064,25190,25228,Near-Crash,Sport Utility Vehicles,lead vehicle
+8719,1064,25355,25389,Near-Crash,Automobile,vehicle turning into another path (same direction)
+8720,1076,24017,24117,Crash,Object,obstacle/object in roadway
+8721,1008,3029,3059,Near-Crash,Automobile,lead vehicle
+8722,1008,3544,3612,Near-Crash,Van (minivan or standard van),lead vehicle
+8723,1008,1750,1845,Near-Crash,Automobile,vehicle in adjacent lane
+8724,1020,1978,1996,Near-Crash,No analyzed data,Single vehicle conflict
+8725,1020,2790,2844,Near-Crash,Van (minivan or standard van),lead vehicle
+8726,1020,2349,2374,Near-Crash,Sport Utility Vehicles,lead vehicle
+8727,1020,9067,9121,Near-Crash,Sport Utility Vehicles,vehicle in adjacent lane
+8728,1049,3129,3184,Near-Crash,Automobile,lead vehicle
+8729,2012,5489,5551,Near-Crash,Automobile,lead vehicle
+8730,1083,5804,5843,Near-Crash,Automobile,vehicle moving across another path (through intersection)
+8731,1007,2584,2646,Near-Crash,Automobile,vehicle in adjacent lane
+8732,1011,15,50,Near-Crash,Van (minivan or standard van),vehicle in adjacent lane
+8733,1011,369,411,Crash,Unknown vehicle type,lead vehicle
+8734,2013,2611,2650,Near-Crash,Pickup truck,lead vehicle
+8735,1050,10377,10425,Near-Crash,Pickup truck,vehicle turning across another path (opposite direction)
+8736,1046,982,1012,Near-Crash,Other vehicle type,vehicle in adjacent lane
+8737,1008,1691,1719,Near-Crash,Automobile,lead vehicle
+8738,1020,3243,3288,Near-Crash,Van (minivan or standard van),vehicle turning across another path (same direction)
+8739,1080,9857,9922,Near-Crash,Automobile,lead vehicle
+8740,1061,5830,5894,Near-Crash,Pickup truck,following vehicle
+8741,1018,8789,8826,Near-Crash,Sport Utility Vehicles,vehicle turning into another path (same direction)
+8742,1020,6190,6242,Near-Crash,Automobile,lead vehicle
+8743,1042,12371,12414,Near-Crash,Automobile,lead vehicle
+8744,1046,5904,5945,Near-Crash,Van (minivan or standard van),vehicle in adjacent lane
+8745,1008,3016,3069,Near-Crash,Automobile,vehicle turning across another path (opposite direction)
+8746,1034,663,703,Near-Crash,Automobile,vehicle turning across another path (opposite direction)
+8747,1034,1685,1714,Near-Crash,Automobile,vehicle in adjacent lane
+8748,2009,13250,13348,Near-Crash,Sport Utility Vehicles,lead vehicle
+8749,1020,11893,11935,Near-Crash,Automobile,lead vehicle
+8750,1020,973,1068,Crash,No analyzed data,Single vehicle conflict
+8751,1020,136,175,Near-Crash,No analyzed data,Single vehicle conflict
+8752,1034,1782,1808,Near-Crash,Automobile,lead vehicle
+8753,1034,13499,13540,Near-Crash,Sport Utility Vehicles,vehicle in adjacent lane
+8754,1014,16648,16724,Near-Crash,Sport Utility Vehicles,lead vehicle
+8755,1014,22333,22361,Near-Crash,Automobile,lead vehicle
+8756,1016,5855,5914,Near-Crash,Animal,animal
+8757,1060,8319,8346,Near-Crash,Animal,animal
+8758,1060,513,563,Near-Crash,No analyzed data,Single vehicle conflict
+8759,1051,8741,8790,Near-Crash,Van (minivan or standard van),vehicle turning across another path (opposite direction)
+8760,1074,27721,27815,Near-Crash,Van (minivan or standard van),vehicle in adjacent lane
+8761,1051,11030,11103,Near-Crash,Single-unit straight truck: Flatbed,lead vehicle
+8762,1051,18189,18253,Near-Crash,Automobile,vehicle in adjacent lane
+8763,1051,2062,2093,Crash,Automobile,vehicle in adjacent lane
+8764,2009,3922,3966,Near-Crash,Automobile,lead vehicle
+8765,1041,7696,7768,Crash,No analyzed data,Single vehicle conflict
+8766,1085,7333,7434,Near-Crash,Van (minivan or standard van),vehicle in adjacent lane
+8767,1028,13553,13588,Near-Crash,Automobile,vehicle turning across another path (opposite direction)
+8768,1028,8713,8725,Near-Crash,Automobile,vehicle moving across another path (through intersection)
+8769,1034,1381,1427,Near-Crash,Automobile,vehicle turning into another path (same direction)
+8770,1029,151,204,Near-Crash,Automobile,lead vehicle
+8771,1029,4109,4163,Near-Crash,Pickup truck,lead vehicle
+8772,1029,1847,1888,Near-Crash,Van (minivan or standard van),vehicle turning into another path (same direction)
+8773,1029,5170,5208,Near-Crash,Automobile,lead vehicle
+8774,1029,3245,3303,Near-Crash,Automobile,lead vehicle
+8775,1016,17382,17453,Near-Crash,Automobile,lead vehicle
+8776,1016,25316,25384,Near-Crash,Sport Utility Vehicles,lead vehicle
+8777,1016,15544,15593,Near-Crash,Sport Utility Vehicles,lead vehicle
+8778,1023,11952,11990,Near-Crash,No analyzed data,Single vehicle conflict
+8779,1006,10080,10136,Near-Crash,Automobile,lead vehicle
+8780,1053,10003,10049,Near-Crash,Automobile,vehicle in adjacent lane
+8781,1053,1343,1394,Near-Crash,Automobile,lead vehicle
+8782,1053,1236,1293,Near-Crash,Sport Utility Vehicles,lead vehicle
+8783,1064,16587,16622,Near-Crash,Pickup truck,lead vehicle
+8784,1064,39998,40051,Near-Crash,Automobile,lead vehicle
+8785,1021,5287,5344,Near-Crash,Van (minivan or standard van),following vehicle
+8786,1007,2491,2528,Near-Crash,Van (minivan or standard van),following vehicle
+8787,1018,5512,5584,Near-Crash,Automobile,lead vehicle
+8788,1018,5983,6027,Near-Crash,Sport Utility Vehicles,lead vehicle
+8789,1011,1840,1920,Near-Crash,Automobile,vehicle in adjacent lane
+8790,1049,2796,2860,Crash,Automobile,lead vehicle
+8791,1016,4798,4833,Near-Crash,Automobile,lead vehicle
+8792,1004,9305,9364,Near-Crash,Object,Unknown conflict
+8793,2004,3668,3699,Near-Crash,Automobile,lead vehicle
+8794,1041,6623,6642,Crash,Van (minivan or standard van),obstacle/object in roadway
+8795,1041,16639,16724,Crash,Automobile,following vehicle
+8796,1007,3071,3107,Near-Crash,Automobile,vehicle in adjacent lane
+8797,1041,10454,10519,Near-Crash,Pickup truck,following vehicle
+8798,1041,474,503,Near-Crash,Automobile,vehicle turning across another path (opposite direction)
+8799,1032,31961,32082,Near-Crash,Automobile,lead vehicle
+8800,1007,3448,3558,Near-Crash,Pedestrian,pedestrian
+8801,1070,3368,3396,Near-Crash,Automobile,vehicle turning across another path (opposite direction)
+8802,1023,6147,6172,Near-Crash,Automobile,vehicle in adjacent lane
+8803,1020,2079,2101,Near-Crash,Pedestrian,pedestrian
+8804,1029,17430,17448,Near-Crash,Automobile,lead vehicle
+8805,1029,10475,10503,Near-Crash,Automobile,lead vehicle
+8806,1029,8669,8699,Near-Crash,Automobile,lead vehicle
+8807,1029,12198,12236,Near-Crash,Sport Utility Vehicles,lead vehicle
+8808,1029,48114,48153,Near-Crash,Automobile,vehicle turning across another path (opposite direction)
+8809,1029,29525,29813,Near-Crash,Automobile,lead vehicle
+8810,1006,3958,4008,Near-Crash,Automobile,lead vehicle
+8811,1020,2987,3028,Crash,Object,obstacle/object in roadway
+8812,1020,10382,10435,Crash,Automobile,Single vehicle conflict
+8813,1073,13565,13609,Near-Crash,Pickup truck,following vehicle
+8814,1011,6840,6880,Near-Crash,Automobile,vehicle turning across another path (opposite direction)
+8815,1039,23695,23726,Near-Crash,Automobile,lead vehicle
+8816,1053,7425,7496,Near-Crash,Van (minivan or standard van),merging vehicle
+8817,1011,8470,8530,Near-Crash,Automobile,oncoming traffic
+8818,1026,925,1012,Crash,Object,obstacle/object in roadway
+8819,2006,8210,8261,Near-Crash,Pickup truck,lead vehicle
+8820,1014,15040,15072,Near-Crash,Van (minivan or standard van),lead vehicle
+8821,1014,7539,7695,Near-Crash,Automobile,lead vehicle
+8822,1006,15223,15268,Crash,No analyzed data,Single vehicle conflict
+8823,1006,3361,3399,Near-Crash,Automobile,lead vehicle
+8824,1079,15410,15514,Near-Crash,Van (minivan or standard van),vehicle in adjacent lane
+8825,1079,9768,9800,Near-Crash,Sport Utility Vehicles,parked vehicle
+8826,1031,5209,5251,Near-Crash,Automobile,lead vehicle
+8827,1036,22892,22949,Near-Crash,Automobile,lead vehicle
+8828,1023,9234,9267,Near-Crash,Automobile,following vehicle
+8829,1020,11631,11673,Near-Crash,Automobile,lead vehicle
+8830,1020,23738,23762,Near-Crash,Van (minivan or standard van),lead vehicle
+8831,1020,9765,9815,Near-Crash,Automobile,vehicle in adjacent lane
+8832,1001,4980,5014,Near-Crash,Automobile,lead vehicle
+8833,1007,3526,3573,Near-Crash,Automobile,vehicle moving across another path (through intersection)
+8834,1032,14229,14247,Near-Crash,Automobile,vehicle moving across another path (through intersection)
+8835,2012,6405,6470,Near-Crash,Automobile,lead vehicle
+8836,1069,607,636,Near-Crash,No analyzed data,Single vehicle conflict
+8837,1020,3202,3252,Near-Crash,No analyzed data,Single vehicle conflict
+8838,1076,6316,6352,Near-Crash,Automobile,lead vehicle
+8839,1064,14731,14769,Near-Crash,Automobile,lead vehicle
+8840,1064,23840,23880,Near-Crash,Automobile,vehicle turning into another path (same direction)
+8841,1005,13960,14019,Near-Crash,Automobile,lead vehicle
+8842,1001,10174,10222,Near-Crash,Motorcycle or moped,lead vehicle
+8843,1034,13067,13105,Near-Crash,Van (minivan or standard van),lead vehicle
+8844,1034,3491,3546,Near-Crash,Automobile,lead vehicle
+8845,1081,4924,4950,Near-Crash,Van (minivan or standard van),lead vehicle
+8846,1061,15449,15485,Near-Crash,Automobile,vehicle in adjacent lane
+8847,1003,16407,16465,Near-Crash,Sport Utility Vehicles,lead vehicle
+8848,1061,9053,9080,Near-Crash,Automobile,lead vehicle
+8849,1050,3958,4012,Near-Crash,Single-unit straight truck: Dump,lead vehicle
+8850,1018,1037,1088,Near-Crash,Sport Utility Vehicles,vehicle in adjacent lane
+8851,1029,10762,10841,Near-Crash,Sport Utility Vehicles,lead vehicle
+8852,1029,6575,6599,Near-Crash,Automobile,lead vehicle
+8853,1029,9470,9518,Near-Crash,Automobile,lead vehicle
+8854,1054,9546,9628,Near-Crash,Automobile,following vehicle
+8855,1054,4662,4694,Near-Crash,Single-unit straight truck: Flatbed,lead vehicle
+8856,1041,4761,4853,Crash,Automobile,lead vehicle
+8857,1070,10389,10422,Near-Crash,Automobile,vehicle in adjacent lane
+8858,1070,4296,4321,Near-Crash,Automobile,following vehicle
+8859,1070,6982,7033,Near-Crash,Automobile,vehicle turning across another path (opposite direction)
+8860,2007,4544,4588,Crash,No analyzed data,Single vehicle conflict
+8861,1034,11407,11448,Near-Crash,Automobile,lead vehicle
+8862,1034,403,445,Near-Crash,Pickup truck,lead vehicle
+8863,1034,12971,12999,Near-Crash,Van (minivan or standard van),lead vehicle
+8864,1034,49097,49162,Near-Crash,Automobile,lead vehicle
+8865,1034,1153,1224,Near-Crash,Unknown vehicle type,lead vehicle
+8866,1034,186,224,Near-Crash,Sport Utility Vehicles,lead vehicle
+8867,1062,5608,5667,Near-Crash,Object,obstacle/object in roadway
+8868,1025,189,223,Near-Crash,Automobile,lead vehicle
+8869,1051,7397,7455,Near-Crash,Van (minivan or standard van),vehicle in adjacent lane
+8870,1027,10738,10766,Near-Crash,Automobile,lead vehicle
+8871,1054,1247,1283,Near-Crash,Automobile,lead vehicle
+8872,1004,4634,4685,Near-Crash,Automobile,lead vehicle
+8873,1008,12050,12050,Near-Crash,Sport Utility Vehicles,lead vehicle
+8874,1008,8328,8409,Near-Crash,Van (minivan or standard van),vehicle turning into another path (same direction)
+8875,1034,6930,6977,Near-Crash,No analyzed data,Single vehicle conflict
+8876,1034,6666,6715,Crash,No analyzed data,Single vehicle conflict
+8877,1034,3229,3293,Near-Crash,Automobile,lead vehicle
+8878,1034,7076,7108,Near-Crash,Van (minivan or standard van),lead vehicle
+8879,1034,1799,1842,Near-Crash,Van (minivan or standard van),lead vehicle
+8880,1032,3830,3882,Near-Crash,Automobile,following vehicle
+8881,1024,7719,7789,Near-Crash,Sport Utility Vehicles,vehicle turning into another path (same direction)
+8882,1024,3717,3759,Near-Crash,Automobile,lead vehicle
+8883,1024,4117,4193,Near-Crash,Pickup truck,lead vehicle
+8884,1045,51407,51471,Near-Crash,Automobile,following vehicle
+8885,1045,23300,23389,Near-Crash,Automobile,lead vehicle
+8886,1018,8859,8914,Near-Crash,Single-unit straight truck: Box,oncoming traffic
+8887,1039,10068,10125,Near-Crash,Single-unit straight truck: Box,vehicle in adjacent lane
+8888,1039,4818,4864,Near-Crash,Automobile,lead vehicle
+8889,1039,27140,27221,Near-Crash,Pickup truck,lead vehicle
+8890,1064,8994,9032,Near-Crash,Van (minivan or standard van),lead vehicle
+8891,1042,7286,7339,Near-Crash,Van (minivan or standard van),lead vehicle
+8892,1023,16684,16749,Near-Crash,Automobile,vehicle in adjacent lane
+8893,1023,8835,8865,Near-Crash,Automobile,vehicle turning into another path (same direction)
+8894,1023,3661,3751,Near-Crash,Automobile,lead vehicle
+8895,1018,9368,9413,Near-Crash,Automobile,vehicle moving across another path (through intersection)
+8896,1018,2480,2527,Near-Crash,Sport Utility Vehicles,lead vehicle
+8897,1039,7155,7184,Near-Crash,Automobile,lead vehicle
+8898,1012,14620,14641,Near-Crash,Sport Utility Vehicles,vehicle in adjacent lane
+8899,1012,10780,10839,Near-Crash,Pickup truck,vehicle turning across another path (opposite direction)
+8900,1012,21592,21646,Near-Crash,Automobile,lead vehicle
+8901,1012,9173,9252,Near-Crash,Van (minivan or standard van),lead vehicle
+8902,1012,6729,6802,Near-Crash,Sport Utility Vehicles,lead vehicle
+8903,1012,27070,27105,Near-Crash,Sport Utility Vehicles,vehicle turning into another path (same direction)
+8904,1005,16943,17005,Near-Crash,Automobile,lead vehicle
+8905,2004,17499,17580,Near-Crash,Automobile,lead vehicle
+8906,1079,1458,1483,Near-Crash,Automobile,lead vehicle
+8907,1047,5257,5280,Crash,Automobile,Single vehicle conflict
+8908,1047,1910,1957,Near-Crash,Automobile,lead vehicle
+8909,1014,4194,4229,Near-Crash,Sport Utility Vehicles,lead vehicle
+8910,1014,6851,6975,Near-Crash,No analyzed data,Single vehicle conflict
+8911,1006,4502,4551,Near-Crash,Pickup truck,lead vehicle
+8912,1006,12962,13002,Near-Crash,Automobile,lead vehicle
+8913,1020,6720,6759,Near-Crash,Automobile,vehicle turning into another path (same direction)
+8914,1068,19835,19866,Near-Crash,Animal,animal
+8915,1068,33317,33358,Near-Crash,Automobile,vehicle moving across another path (through intersection)
+8916,1032,17476,17521,Near-Crash,Automobile,following vehicle
+8917,1035,2485,2520,Near-Crash,Automobile,vehicle in adjacent lane
+8918,1035,1217,1278,Near-Crash,Automobile,lead vehicle
+8919,1027,23178,23227,Near-Crash,No analyzed data,Single vehicle conflict
+8920,1027,13952,13992,Near-Crash,No analyzed data,Single vehicle conflict
+8921,1034,41473,41557,Crash,Automobile,lead vehicle
+8922,1034,2666,2698,Crash,Automobile,Single vehicle conflict
+8923,2004,16808,16849,Near-Crash,Automobile,lead vehicle
+8924,1008,12946,12982,Crash,Automobile,parked vehicle
+8925,1068,49150,49229,Near-Crash,Automobile,vehicle in adjacent lane
+8926,1038,12515,12558,Near-Crash,Automobile,lead vehicle
+8927,1085,5192,5262,Crash,Automobile,parked vehicle
+8928,1062,18703,18747,Near-Crash,Automobile,lead vehicle
+8929,1027,17001,17031,Near-Crash,Automobile,lead vehicle
+8930,1012,60711,60856,Near-Crash,Sport Utility Vehicles,lead vehicle
+8931,1012,100054,100091,Near-Crash,No analyzed data,Single vehicle conflict
+8932,1012,10584,10653,Near-Crash,Sport Utility Vehicles,lead vehicle
+8933,1029,6108,6176,Near-Crash,Automobile,following vehicle
+8934,1029,3981,4036,Near-Crash,Sport Utility Vehicles,vehicle in adjacent lane
+8935,1027,18720,18748,Near-Crash,Automobile,lead vehicle
+8936,1034,13483,13522,Near-Crash,No analyzed data,Single vehicle conflict
+8937,1034,28,85,Near-Crash,Van (minivan or standard van),merging vehicle
+8938,1034,4958,4998,Near-Crash,Automobile,lead vehicle
+8939,1037,31733,31770,Near-Crash,Automobile,lead vehicle
+8940,1042,13275,13335,Crash,Automobile,following vehicle
+8941,1042,14386,14452,Crash,Automobile,following vehicle
+8942,1024,11456,11497,Near-Crash,Automobile,vehicle turning across another path (opposite direction)
+8943,1024,5421,5473,Near-Crash,Automobile,lead vehicle
+8944,1024,4159,4246,Near-Crash,Automobile,lead vehicle
+8945,1024,4269,4350,Near-Crash,Automobile,lead vehicle
+8946,1020,129,163,Crash,Sport Utility Vehicles,lead vehicle
+8947,1008,5850,5930,Near-Crash,Sport Utility Vehicles,lead vehicle
+8948,1017,6560,6634,Near-Crash,Automobile,Single vehicle conflict
+8949,2008,5307,5352,Near-Crash,Animal,animal
+8950,2008,3435,3477,Near-Crash,Tractor-trailer: Enclosed box,vehicle in adjacent lane
+8951,1007,19434,19458,Near-Crash,Automobile,vehicle turning into another path (same direction)
+8952,1007,2,38,Near-Crash,Sport Utility Vehicles,following vehicle
+8953,1007,12738,12781,Near-Crash,Automobile,vehicle in adjacent lane
+8954,1007,6104,6161,Near-Crash,Pickup truck,lead vehicle
+8955,1023,11155,11185,Crash,No analyzed data,Single vehicle conflict
+8956,1023,2509,2597,Near-Crash,Automobile,following vehicle
+8957,1007,25830,25858,Near-Crash,Transit bus,vehicle in adjacent lane
+8958,1007,6670,6701,Near-Crash,Automobile,lead vehicle
+8959,1007,14887,14969,Near-Crash,Motorcycle or moped,lead vehicle
+8960,1007,3552,3604,Crash,Automobile,following vehicle
+8961,1063,810,871,Near-Crash,Automobile,oncoming traffic
+8962,1007,9566,9586,Near-Crash,Automobile,vehicle in adjacent lane
+8963,1029,16742,16810,Near-Crash,Automobile,vehicle in adjacent lane
+8964,1029,11500,11619,Near-Crash,No analyzed data,Single vehicle conflict
+8965,1029,13932,13976,Near-Crash,Automobile,lead vehicle
+8966,1029,6245,6325,Near-Crash,Pickup truck,following vehicle
+8967,1053,3588,3628,Near-Crash,Automobile,lead vehicle
+8968,1008,1596,1642,Near-Crash,Automobile,vehicle in adjacent lane
+8969,1008,7478,7527,Near-Crash,Van (minivan or standard van),lead vehicle
+8970,1035,1978,2083,Near-Crash,Single-unit straight truck: Multistop/Step Van,vehicle in adjacent lane
+8971,1062,18945,18995,Near-Crash,Automobile,following vehicle
+8972,1027,321,413,Near-Crash,No analyzed data,Single vehicle conflict
+8973,1027,40981,41030,Near-Crash,No analyzed data,Single vehicle conflict
+8974,1027,42793,42827,Near-Crash,Automobile,vehicle in adjacent lane
+8975,1007,0,44,Near-Crash,Van (minivan or standard van),lead vehicle
+8976,1007,3581,3636,Near-Crash,Van (minivan or standard van),lead vehicle
+8977,2011,14207,14264,Near-Crash,Sport Utility Vehicles,lead vehicle
+8978,1078,1051,1081,Near-Crash,No analyzed data,Single vehicle conflict
+8979,1038,2537,2569,Near-Crash,Automobile,lead vehicle
+8980,1038,3240,3303,Near-Crash,Automobile,lead vehicle
+8981,1038,1799,1834,Near-Crash,Automobile,lead vehicle
+8982,1038,332,361,Crash,No analyzed data,Single vehicle conflict
+8983,1038,1395,1423,Near-Crash,No analyzed data,Single vehicle conflict
+8984,1020,7713,7764,Near-Crash,Automobile,lead vehicle
+8985,1020,14617,14660,Near-Crash,Sport Utility Vehicles,lead vehicle
+8986,1020,2103,2147,Near-Crash,Automobile,lead vehicle
+8987,1034,32876,32903,Near-Crash,Automobile,lead vehicle
+8988,1034,2465,2500,Near-Crash,Automobile,following vehicle
+8989,1034,9149,9210,Near-Crash,Automobile,lead vehicle
+8990,1051,3305,3342,Near-Crash,Automobile,oncoming traffic
+8991,1051,3772,3811,Near-Crash,Van (minivan or standard van),lead vehicle
+8992,1051,31015,31045,Near-Crash,Automobile,lead vehicle
+8993,1047,1605,1662,Near-Crash,Automobile,lead vehicle
+8994,1047,1785,1851,Near-Crash,Automobile,vehicle in adjacent lane
+8995,1020,3925,3980,Near-Crash,Automobile,lead vehicle
+8996,1020,4004,4047,Near-Crash,Automobile,following vehicle
+8997,1020,107,177,Near-Crash,Van (minivan or standard van),following vehicle
+8998,1020,638,673,Near-Crash,Automobile,lead vehicle
+8999,1073,10271,10306,Near-Crash,No analyzed data,Single vehicle conflict
+9000,1073,10216,10254,Near-Crash,Sport Utility Vehicles,lead vehicle
+9001,1007,3520,3551,Near-Crash,Pickup truck,vehicle turning into another path (opposite direction)
+9002,1007,160,281,Near-Crash,Automobile,vehicle in adjacent lane
+9003,1007,2801,2824,Near-Crash,Automobile,vehicle turning across another path (opposite direction)
+9004,1024,809,908,Near-Crash,Automobile,vehicle turning into another path (same direction)
+9005,1024,13195,13232,Near-Crash,Sport Utility Vehicles,vehicle in adjacent lane
+9006,1058,7650,7696,Near-Crash,Automobile,merging vehicle
+9007,1072,4015,4041,Near-Crash,Automobile,oncoming traffic
+9008,1016,9037,9071,Near-Crash,Automobile,vehicle turning into another path (same direction)
+9009,1072,16600,16634,Near-Crash,Pickup truck,lead vehicle
+9010,1076,22799,22831,Near-Crash,Van (minivan or standard van),lead vehicle
+9011,1047,2145,2190,Near-Crash,Sport Utility Vehicles,lead vehicle
+9012,1047,1882,1914,Crash,No analyzed data,Single vehicle conflict
+9013,1059,182,212,Near-Crash,Pedestrian,pedestrian
+9014,1059,4917,4962,Near-Crash,Automobile,following vehicle
+9015,1078,2264,2293,Near-Crash,Automobile,vehicle turning into another path (opposite direction)
+9016,1016,13500,13577,Near-Crash,Automobile,following vehicle
+9017,1016,18800,18844,Near-Crash,Automobile,following vehicle
+9018,1018,3069,3147,Near-Crash,Automobile,lead vehicle
+9019,1023,18264,18303,Near-Crash,Automobile,vehicle turning across another path (opposite direction)
+9020,1023,4543,4577,Near-Crash,Automobile,following vehicle
+9021,1012,10429,10462,Near-Crash,Pickup truck,lead vehicle
+9022,1023,2385,2415,Near-Crash,Automobile,vehicle in adjacent lane
+9023,1034,2567,2620,Crash,Sport Utility Vehicles,following vehicle
+9024,1034,5770,5810,Near-Crash,Sport Utility Vehicles,lead vehicle
+9025,1034,4718,4767,Near-Crash,Sport Utility Vehicles,lead vehicle
+9026,1039,5206,5294,Near-Crash,Tractor-trailer: Enclosed box,vehicle in adjacent lane
+9027,1039,12983,13120,Near-Crash,Pickup truck,lead vehicle
+9028,1050,9245,9273,Near-Crash,Automobile,lead vehicle
+9029,1050,2874,2921,Near-Crash,Automobile,parked vehicle
+9030,1061,20620,20655,Near-Crash,Automobile,vehicle turning into another path (same direction)
+9031,1035,33726,33779,Near-Crash,Automobile,lead vehicle
+9032,1030,5640,5691,Near-Crash,Automobile,lead vehicle
+9033,1030,2532,2570,Near-Crash,Automobile,following vehicle
+9034,1063,2306,2335,Near-Crash,No analyzed data,Single vehicle conflict
+9035,1063,40040,40085,Near-Crash,Automobile,vehicle turning into another path (same direction)
+9036,2004,16301,16341,Near-Crash,Van (minivan or standard van),lead vehicle
+9037,1053,9770,9845,Near-Crash,Automobile,lead vehicle
+9038,1006,238,267,Near-Crash,Automobile,lead vehicle
+9039,1053,15356,15402,Near-Crash,Sport Utility Vehicles,lead vehicle
+9040,1037,34177,34216,Near-Crash,Sport Utility Vehicles,oncoming traffic
+9041,1061,1842,1911,Near-Crash,Automobile,following vehicle
+9042,1061,6007,6059,Near-Crash,Automobile,vehicle in adjacent lane
+9043,2001,2941,2973,Near-Crash,Automobile,vehicle in adjacent lane
+9044,1007,18268,18321,Near-Crash,Sport Utility Vehicles,lead vehicle
+9045,1046,11445,11508,Near-Crash,Automobile,lead vehicle
+9046,1027,28570,28616,Near-Crash,No analyzed data,Single vehicle conflict
+9047,1007,2959,3071,Near-Crash,Automobile,vehicle turning into another path (same direction)
+9048,1032,3018,3063,Near-Crash,Automobile,lead vehicle
+9049,1016,1984,2047,Near-Crash,Pickup truck,lead vehicle
+9050,1016,3846,3993,Near-Crash,Automobile,vehicle turning into another path (opposite direction)
+9051,1016,18173,18246,Near-Crash,Sport Utility Vehicles,lead vehicle
+9052,1034,15547,15579,Near-Crash,Pickup truck,lead vehicle
+9053,1034,5245,5294,Near-Crash,Van (minivan or standard van),lead vehicle
+9054,1034,4469,4504,Near-Crash,School bus,oncoming traffic
+9055,1034,3194,3224,Near-Crash,Automobile,lead vehicle
+9056,1034,9295,9345,Near-Crash,Automobile,lead vehicle
+9057,2006,13762,13787,Near-Crash,Automobile,lead vehicle
+9058,2006,2000,2030,Near-Crash,Automobile,following vehicle
+9059,1076,2047,2075,Near-Crash,Sport Utility Vehicles,lead vehicle
+9060,1076,13262,13325,Near-Crash,Van (minivan or standard van),lead vehicle
+9061,1072,25572,25614,Near-Crash,Pickup truck,lead vehicle
+9062,1044,34216,34283,Near-Crash,Van (minivan or standard van),vehicle in adjacent lane
+9063,1023,8211,8294,Near-Crash,Tractor-trailer: Tank,merging vehicle
+9064,1023,2107,2150,Near-Crash,Automobile,vehicle in adjacent lane
+9065,1023,1107,1137,Near-Crash,Sport Utility Vehicles,lead vehicle
+9066,1062,5231,5275,Near-Crash,Automobile,vehicle moving across another path (through intersection)
+9067,1023,3581,3652,Near-Crash,Sport Utility Vehicles,following vehicle
+9068,1023,5230,5256,Near-Crash,Automobile,vehicle turning into another path (same direction)
+9069,1023,4836,4893,Near-Crash,Automobile,lead vehicle
+9070,1046,15227,15301,Near-Crash,Sport Utility Vehicles,lead vehicle
+9071,1029,5236,5294,Near-Crash,Object,obstacle/object in roadway
+9072,1029,13930,13979,Near-Crash,Automobile,vehicle in adjacent lane
+9073,1029,380,411,Near-Crash,Automobile,lead vehicle
+9074,1029,13031,13085,Near-Crash,Van (minivan or standard van),following vehicle
+9075,1029,808,862,Near-Crash,School bus,vehicle in adjacent lane
+9076,1032,13219,13275,Crash,Sport Utility Vehicles,vehicle turning across another path (opposite direction)
+9077,1021,811,847,Near-Crash,Automobile,lead vehicle
+9078,1046,2372,2431,Near-Crash,Automobile,following vehicle
+9079,1029,8304,8348,Near-Crash,Automobile,following vehicle
+9080,1029,25805,25854,Near-Crash,Automobile,lead vehicle
+9081,1031,525,559,Near-Crash,Automobile,Single vehicle conflict
+9082,1068,615,664,Near-Crash,Sport Utility Vehicles,lead vehicle
+9083,1063,41337,41379,Near-Crash,Automobile,vehicle in adjacent lane
+9084,1063,2490,2535,Near-Crash,Automobile,oncoming traffic
+9085,1063,4260,4325,Near-Crash,Automobile,vehicle in adjacent lane
+9086,1009,85925,85991,Near-Crash,Automobile,following vehicle
+9087,1009,130391,130439,Near-Crash,Sport Utility Vehicles,following vehicle
+9088,1009,6980,7024,Near-Crash,Sport Utility Vehicles,lead vehicle
+9089,1029,7567,7613,Near-Crash,Automobile,lead vehicle
+9090,1029,4170,4219,Near-Crash,Automobile,lead vehicle
+9091,1029,3038,3089,Near-Crash,Automobile,lead vehicle
+9092,1029,4250,4297,Near-Crash,Automobile,following vehicle
+9093,1029,609,660,Near-Crash,Sport Utility Vehicles,lead vehicle
+9094,1029,38720,38773,Near-Crash,Van (minivan or standard van),vehicle in adjacent lane
+9095,1029,10541,10586,Near-Crash,Sport Utility Vehicles,vehicle turning into another path (same direction)
+9096,1029,8718,8844,Near-Crash,No analyzed data,oncoming traffic
+9097,1063,3478,3525,Near-Crash,Automobile,lead vehicle
+9098,1063,2788,2825,Near-Crash,Automobile,lead vehicle
+9099,1001,53254,53371,Near-Crash,Automobile,vehicle turning across another path (opposite direction)
+9100,1049,27845,27906,Near-Crash,Pickup truck,lead vehicle
+9101,1023,9715,9807,Near-Crash,Single-unit straight truck: Box,lead vehicle
+9102,1066,4457,4530,Near-Crash,Sport Utility Vehicles,oncoming traffic
+9103,1066,15180,15218,Crash,No analyzed data,Single vehicle conflict
+9104,1017,4865,4907,Near-Crash,Sport Utility Vehicles,vehicle turning across another path (opposite direction)
+9105,1017,6219,6243,Near-Crash,Transit bus,lead vehicle
+9106,1017,1147,1172,Near-Crash,No analyzed data,Single vehicle conflict
+9107,1017,327,377,Near-Crash,Sport Utility Vehicles,lead vehicle
+9108,1017,7281,7321,Near-Crash,Automobile,lead vehicle
+9109,1017,4330,4375,Near-Crash,Van (minivan or standard van),lead vehicle
+9110,1017,3276,3326,Near-Crash,Automobile,lead vehicle
+9111,1020,913,941,Near-Crash,Automobile,lead vehicle
+9112,1020,4484,4527,Near-Crash,Automobile,lead vehicle
+9113,1020,8000,8055,Near-Crash,Automobile,lead vehicle
+9114,2004,3748,3835,Near-Crash,Automobile,lead vehicle
+9115,1020,3040,3076,Near-Crash,Other vehicle type,oncoming traffic
+9116,1020,5219,5268,Near-Crash,Automobile,vehicle moving across another path (through intersection)
+9117,1020,6151,6304,Near-Crash,No analyzed data,oncoming traffic
+9118,1020,7539,7612,Near-Crash,Automobile,oncoming traffic
+9119,1020,9258,9277,Crash,Animal,animal
+9120,1020,8548,8649,Near-Crash,Automobile,lead vehicle
+9121,1020,14607,14692,Near-Crash,Sport Utility Vehicles,lead vehicle
+9122,1020,12539,12592,Near-Crash,Sport Utility Vehicles,lead vehicle
+9123,1077,3265,3338,Crash,Sport Utility Vehicles,following vehicle
