@@ -54,8 +54,8 @@ for crash_type in ['Crash', 'NearCrash']:
             veh_i = veh_i.rename(columns={'x_ekf':'x','y_ekf':'y','psi_ekf':'psi','v_ekf':'speed'})
             veh_i[['width','length']] = meta.loc[trip_id][['ego_width','ego_length']].values.astype(float)
 
-            veh_j = df_sur[df_sur['target_id']==target_id][['time','x_ekf','y_ekf','psi_ekf','speed_ekf','target_id','range','forward']].copy()
-            veh_j = veh_j.rename(columns={'x_ekf':'x','y_ekf':'y','psi_ekf':'psi','speed_ekf':'speed'})
+            veh_j = df_sur[df_sur['target_id']==target_id][['time','x_ekf','y_ekf','psi_ekf','v_ekf','target_id','range','forward']].copy()
+            veh_j = veh_j.rename(columns={'x_ekf':'x','y_ekf':'y','psi_ekf':'psi','v_ekf':'speed'})
             veh_j[['width','length']] = meta.loc[trip_id][['target_width','target_length']].values.astype(float)
 
             df = veh_i.merge(veh_j, on='time', suffixes=('_i', '_j'), how='inner')
