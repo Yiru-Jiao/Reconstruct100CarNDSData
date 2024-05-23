@@ -1,3 +1,7 @@
-*
+Crash/*
+NearCrash/*
+
 !.gitignore
-!*.gif
+!Samples
+!Crash
+!NearCrash
