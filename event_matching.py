@@ -59,10 +59,13 @@ for crash_type in ['Crash', 'NearCrash']:
             veh_j[['width','length']] = meta.loc[trip_id][['target_width','target_length']].values.astype(float)
 
             df = veh_i.merge(veh_j, on='time', suffixes=('_i', '_j'), how='inner')
-            if df[df['event'].astype(bool)]['range'].min()<2.5: # so that no other vehicles can be between the ego and the target during event
+            if df[df['event'].astype(bool)]['range'].min()<4.5: # so that no other vehicles can be between the ego and the target during event
                 events.append(df)
 
     events = pd.concat(events)
     events.to_hdf(path_matched + 'HundredCar_' + crash_type + 'es.h5', key='data')
 
+    meta = meta.loc[events['trip_id'].unique()]
+    meta.to_csv(path_matched + 'HundredCar_metadata_' + crash_type + 'es.csv')
+    print(f'There are {len(meta)} {crash_type}es matched and saved.')
 
