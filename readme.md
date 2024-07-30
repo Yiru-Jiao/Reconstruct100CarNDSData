@@ -24,7 +24,7 @@ Not all of the events can be reconstructed due to the missing values, inaccuracy
 
 ## To repeat/adjust the processing
 ### Python libarary requirements
-`pandas`, `tqdm`, `numpy`, `matplotlib`
+`pandas`, `pytables`, `tqdm`, `numpy`, `matplotlib`
 
 ### Wrokflow
 **Step 1.** Download the raw data from [^3] in the folder `RawData`. This include: `100CarVehicleInformation_v1_0.txt`, `100CarEventVideoReducedData_v1_5.txt`, `HundredCar_Crash_Public_Compiled.txt`, `HundredCar_NearCrash_Public_Compiled.txt`, `Researcher Dictionary for Vehicle Data v1_0.pdf`, `Researcher Dictionary for Video Reduction Data v1.3.pdf`, and `DataDictionary_TimeSeries_v1_2.pdf`
