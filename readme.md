@@ -18,13 +18,13 @@ Including time-series sensor data, event context narratives, and manually remark
 [^3]: Custer, K., 2018. 100-Car data. VITTI. https://doi.org/10.15787/VTT1/CEU6RB
 
 ## Reconstructed examples of crashes
-Not all of the events can be reconstructed due to the missing values, inaccuracy of sensing, and the lack of a ground truth. Subsequently, matching the target vehicle among the detected vehicles in each event is neither trivial. In this repository, 11 crashes and 169 near-crashes are matched based on the restriction that there is not sufficient space (4.5 m) for a undetected vehicle. The following example visualises one of the reconstructed and matched crashes. For the rest of the examples, please refer to the folder ./visual_examples.
+Not all of the events can be reconstructed due to the missing values, inaccuracy of sensing, and the lack of a ground truth. Subsequently, matching the target vehicle among the detected vehicles in each event is neither trivial. In this repository, 11 crashes and 169 near-crashes are matched based on the restriction that there is not sufficient space (4.5 m) for an undetected vehicle. The following example visualises one of the reconstructed and matched crashes. For the rest of the examples, please refer to the folder ./visual_examples.
 ![gif](./visual_examples/event_8360.gif)
 ![png](./ProcessedData/plots_ekf/Crash/8360.png)
 
 ## To repeat/adjust the processing
 ### Python libarary requirements
-`pandas`, `tqdm`, `numpy`, `matplotlib`
+`pandas`, `pytables`, `tqdm`, `numpy`, `matplotlib`
 
 ### Wrokflow
 **Step 1.** Download the raw data from [^3] in the folder `RawData`. This include: `100CarVehicleInformation_v1_0.txt`, `100CarEventVideoReducedData_v1_5.txt`, `HundredCar_Crash_Public_Compiled.txt`, `HundredCar_NearCrash_Public_Compiled.txt`, `Researcher Dictionary for Vehicle Data v1_0.pdf`, `Researcher Dictionary for Video Reduction Data v1.3.pdf`, and `DataDictionary_TimeSeries_v1_2.pdf`
