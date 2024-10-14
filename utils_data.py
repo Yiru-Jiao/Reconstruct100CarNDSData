@@ -14,9 +14,9 @@ def create_dataframe(sample, target_id=0):
                            'time':sample[:,2], # unit: s
                            'speed_comp':sample[:,4], # unit: mph, -1 if not available
                            'speed_gps':sample[:,5], # unit: mph, -1 if not available
-                           'yaw_rate':sample[:,6], # unit: deg/s, positive for left turn
+                           'yaw_rate':sample[:,6], # unit: deg/s, positive for right turn ## note that the data dictionary states this as "postive for left turn", but in data we found the opposite, see trip 8678 as an example
                            'heading':sample[:,7], # unit: deg, 0=North, 90=East, 180=South, 270=West
-                           'acc_lat':sample[:,8], # unit: g, positive for left turn
+                           'acc_lat':sample[:,8], # unit: g, positive for right turn ## the same note as for yaw_rate
                            'acc_lon':sample[:,9], # unit: g
                            'brake':sample[:,77], # 0=off, 1=on
                            'signal':sample[:,78], # 0=off, 1=left, 2=right, 3=both
