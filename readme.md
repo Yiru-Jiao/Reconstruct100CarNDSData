@@ -33,7 +33,7 @@ Not all of the events can be reconstructed due to the missing values, inaccuracy
 
 **Step 3.** Run `preprocessing_100Car.py`
 
-**Step 4.** Run `processing_100Car.py`. Note that we use the variables `yaw_rate` and lateral acceleration by considering that positives indicate right turns. While the data dictionary states "postive for left turn", we found the opposite in data, see trip 8678 as an example if you are interested.
+**Step 4.** Run `processing_100Car.py`
 
 **Step 5.** Run `event_matching.py`, which can be adjusted for your own matching
 
