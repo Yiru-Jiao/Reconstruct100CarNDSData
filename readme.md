@@ -23,6 +23,17 @@ Not all of the events can be reconstructed due to the missing values, inaccuracy
 ![png](./ProcessedData/plots_ekf/Crash/8360.png)
 
 ## To repeat/adjust the processing
+If you use this software in your work, please cite it using the following metadata:
+```latex
+@software{jiao2024_hundred_car,
+author = {Jiao, Yiru},
+month = apr,
+title = {{Trajectory reconstruction of crashes and near-crashes from 100-Car NDS time-series data}},
+url = {https://github.com/Yiru-Jiao/Reconstruct100CarNDSData},
+year = {2024}
+}
+```
+
 ### Python libarary requirements
 `pandas`, `pytables`, `tqdm`, `numpy`, `matplotlib`
 
